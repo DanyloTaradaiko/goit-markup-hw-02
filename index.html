@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- STYLE NORMALIZER -->
+    <section>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+        integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    </section>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <section>
+      <!-- RALEWAY -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet"
+      />
+      <!-- ROBOTO -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet"
+      />
+    </section>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>WebStudio</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="logo-top-1">
+          <span class="logo-web">Web</span>Studio</a
+        >
         <ul>
           <li>
             <a href="#" target="_blank">Studio</a>
@@ -76,14 +110,14 @@
         </ul>
       </section>
 
-      <!-- Our Team -->
+      <!-- OUR TEAM -->
       <section>
         <h2>Our Team</h2>
 
         <ul>
           <li>
             <img
-              src="./images/our team/mark guerrero.jpg"
+              src="./images/our-team/mark-guerrero.jpg"
               alt="A man"
               width="264"
               height="260"
@@ -93,7 +127,7 @@
           </li>
           <li>
             <img
-              src="./images/our team/tom ford.jpg"
+              src="./images/our-team/tom-ford.jpg"
               alt="A man"
               width="264"
               height="260"
@@ -103,7 +137,7 @@
           </li>
           <li>
             <img
-              src="./images/our team/camila garcia.jpg"
+              src="./images/our-team/camila-garcia.jpg"
               alt="A woman"
               width="264"
               height="260"
@@ -113,13 +147,80 @@
           </li>
           <li>
             <img
-              src="./images/our team/daniel wilson.jpg"
+              src="./images/our-team/daniel-wilson.jpg"
               alt="A man"
               width="264"
               height="260"
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- OUR PORTFOLIO -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio/banking-app.jpg"
+              alt="Banking app"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/cashless-payment.jpg"
+              alt="Cashless payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/meditation-app.jpg"
+              alt="Meditation app"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/taxi-service.jpg"
+              alt="Taxi service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/screen-illustrations.jpg"
+              alt="Screen illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-portfolio/online-courses.jpg"
+              alt="Online courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>

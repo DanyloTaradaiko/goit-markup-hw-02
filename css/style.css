@@ -1,0 +1,19 @@
+/* KEEP "STUDIO" */
+.logo-top-1 {
+  color: inherit;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* "WEB" COLORED */
+.logo-top-1 .logo-web {
+  color: #4d5ae5;
+}
+
+/* REMOVE EXTRA STAFF FROM LISTS */
+ul {
+  list-style-type: none;
+}
