@@ -1,25 +1,26 @@
 body {
-  font-family: "Roboto" sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  letter-spacing: 2%;
-  font-size: 16px;
 }
 
 /* HEADER BACKGROUND */
 .header-all {
+  font-weight: 700;
   background-color: #e7e9fc;
+}
+
+.header-all a {
+  color: #2e2f42;
 }
 
 /* HEADER WEBSITE LOGO "STUDIO" */
 .header-all .logo-top-1 {
   font-family: "Raleway", sans-serif;
+  color: #2e2f42;
   font-weight: 700;
-  font-size: 18px;222222
+  font-size: 18px;
   text-decoration: none;
-  color: inherit;
   line-height: 21px;
-  letter-spacing: 3%;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -37,7 +38,6 @@ ul {
 
 /* TOP MENUS */
 .top-menus a {
-  color: inherit;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 24px;
@@ -47,7 +47,7 @@ ul {
 
 /* TOP LINKS: E-MAIL + PHONE */
 .top-links a {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   text-decoration: none;
 }
@@ -72,7 +72,6 @@ ul {
   background-color: #4d5ae5;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
   vertical-align: middle;
   font-weight: 500;
 }
@@ -105,7 +104,6 @@ ul {
 .our-team h3 {
   font-weight: 500;
   font-size: 20px;
-  text-align: middle;
 }
 
 /* OUR PORTFOLIO */
@@ -139,7 +137,7 @@ ul {
 .footer-stuff span {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .footer-stuff p {
