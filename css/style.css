@@ -1,19 +1,147 @@
-/* KEEP "STUDIO" */
-.logo-top-1 {
-  color: inherit;
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 2%;
+  font-size: 16px;
+}
+
+.header-all {
+  background-color: #e7e9fc;
+}
+
+/* HEADER WEBSITE LOGO "STUDIO" */
+.header-all .logo-top-1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  font-style: bold;
   text-decoration: none;
   color: inherit;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
-/* "WEB" COLORED */
-.logo-top-1 .logo-web {
+/* HEADER WEBSITE LOGO "WEB" */
+.header-all .logo-top-1 .logo-web {
   color: #4d5ae5;
+  font-style: bold;
 }
 
 /* REMOVE EXTRA STAFF FROM LISTS */
 ul {
   list-style-type: none;
+}
+
+/* TOP MENUS */
+.top-menus a {
+  color: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* TOP LINKS: E-MAIL + PHONE */
+.top-links a {
+  font-family: "Roboto" sans-serif;
+  color: #434455;
+  text-decoration: none;
+}
+
+/* BUTTON + HERO CENTER ALIGNMENT */
+.hero-text {
+  text-align: center;
+  background-color: #2e2f42;
+}
+/* HERO TEXT */
+.hero-text h1 {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-style: bold;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+/* ORDER SERVICE BUTTON */
+.hero-text button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+/* CORE VALUES */
+.core-values h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* ALL WRITTEN CORE VALUES */
+.core-values h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+/* OUR TEAM */
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* OUR TEAM NAMES  */
+.our-team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: middle;
+}
+
+/* OUR PORTFOLIO */
+.our-portfolio h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* OUR PORTFOLIO THINGS */
+.our-portfolio h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* FOOTER BACKGROUND */
+.footer-stuff {
+  background-color: #2e2f42;
+}
+
+/* FOOTER WEBSITE LOGO "STUDIO" */
+.footer-stuff a {
+  text-decoration: none;
+  font-size: 18px;
+  font-style: bold;
+  color: #f4f4fd;
+  text-transform: uppercase;
+}
+
+/* FOOTER WEBSITE LOGO "WEB" */
+.footer-stuff span {
+  color: #4d5ae5;
+  font-style: bold;
+}
+
+.footer-stuff p {
+  color: #f4f4fd;
 }
