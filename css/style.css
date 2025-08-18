@@ -1,11 +1,12 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-weight: 400;
   color: #434455;
   letter-spacing: 2%;
   font-size: 16px;
 }
 
+/* HEADER BACKGROUND */
 .header-all {
   background-color: #e7e9fc;
 }
@@ -14,8 +15,7 @@ body {
 .header-all .logo-top-1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  font-style: bold;
+  font-size: 18px;222222
   text-decoration: none;
   color: inherit;
   line-height: 21px;
@@ -27,7 +27,7 @@ body {
 /* HEADER WEBSITE LOGO "WEB" */
 .header-all .logo-top-1 .logo-web {
   color: #4d5ae5;
-  font-style: bold;
+  font-weight: 700;
 }
 
 /* REMOVE EXTRA STAFF FROM LISTS */
@@ -62,7 +62,6 @@ ul {
   color: #ffffff;
 
   font-weight: 700;
-  font-style: bold;
   font-size: 56px;
   line-height: 60px;
 }
@@ -131,15 +130,16 @@ ul {
 .footer-stuff a {
   text-decoration: none;
   font-size: 18px;
-  font-style: bold;
+  font-weight: 700;
   color: #f4f4fd;
   text-transform: uppercase;
 }
 
 /* FOOTER WEBSITE LOGO "WEB" */
 .footer-stuff span {
+  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-style: bold;
+    font-weight: 700;
 }
 
 .footer-stuff p {
