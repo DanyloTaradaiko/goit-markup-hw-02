@@ -17,21 +17,19 @@ body {
 /* HEADER WEBSITE LOGO "STUDIO" */
 .header-all .logo-top-1 {
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
-  text-decoration: none;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  vertical-align: middle;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
 /* HEADER WEBSITE LOGO "WEB" */
 .header-all .logo-top-1 .logo-web {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 /* REMOVE EXTRA STAFF FROM LISTS */
@@ -46,14 +44,22 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.top-menus a:focus {
-  color: #404bbf;
+/* 3 MENUS  */
+.top-menus .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
-.top-menus a:hover {
+/* 3 MENUS  HOVER+FOCUS*/
+.top-menus .nav-link:hover,
+.top-menus .nav-link:focus {
   color: #404bbf;
 }
-
+/* 3 MENUS STYLE */
 .top-menus a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
