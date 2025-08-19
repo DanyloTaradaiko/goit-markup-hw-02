@@ -15,7 +15,7 @@ body {
 }
 
 /* HEADER WEBSITE LOGO "STUDIO" */
-.header-all .logo-top-1 {
+.header-all .logo-top {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -27,7 +27,7 @@ body {
 }
 
 /* HEADER WEBSITE LOGO "WEB" */
-.header-all .logo-top-1 .logo-web {
+.header-all .logo-top .logo-web {
   color: #2e2f42;
   font-weight: 700;
 }
